@@ -5,7 +5,7 @@ Ein einfacher ChatGPT-Sprachassistent, der die OpenAI-API und Gradio verwendet, 
 ## Voraussetzungen
 
 - Python 3.6 oder höher
-- OpenAI   
+- OpenAI    
 - Gradio  
 - Pyttsx3  
 - Soundfile  
