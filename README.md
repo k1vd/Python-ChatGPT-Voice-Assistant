@@ -1,6 +1,6 @@
-# ChatGPT Voice Assistant
+# ChatGPT Voice Assistant with role selection
 
-A simple ChatGPT voice assistant using OpenAI API and Gradio to provide a user interface where users can record their queries and receive spoken responses.
+A simple ChatGPT voice assistant using OpenAI API and Gradio to provide a user interface where users can record their queries, choose a role for ChatGPT to take and receive spoken responses tailored to that role.
 
 ## Requirements
 
