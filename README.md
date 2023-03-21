@@ -7,7 +7,7 @@ A simple ChatGPT voice assistant using OpenAI API and Gradio to provide a user i
 - Python 3.6 or higher
 - OpenAI    
 - Gradio  
-- Pyttsx3  
+- gTTS  
 - Soundfile  
 - FFmpeg
 
@@ -73,8 +73,11 @@ To start the ChatGPT voice assistant, run the main script:
 ```bash
 python assistant.py
 ```
-Open your web browser and navigate to the displayed URL (usually http://localhost:7860/), to use the voice assistant interface.
+
+Or start your IDE Python environment with the assistant.py script.
+
+After that, open your web browser and navigate to the displayed URL (usually http://localhost:7860/), to use the voice assistant interface.
    
 ## Author
 Author: Martin Haferanke -
-Original version forked by: Hacking the Markets
+Original version forked by: Hacking the Markets, Part Time Larry
