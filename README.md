@@ -1,10 +1,10 @@
 # ChatGPT Voice Assistant
 
-Ein einfacher ChatGPT-Sprachassistent, der die OpenAI-API und Gradio verwendet, um eine Benutzeroberfläche bereitzustellen, auf der Benutzer ihre Fragen aufzeichnen und gesprochene Antworten erhalten können.
+A simple ChatGPT voice assistant using OpenAI API and Gradio to provide a user interface where users can record their queries and receive spoken responses.
 
-## Voraussetzungen
+## Requirements
 
-- Python 3.6 oder höher
+- Python 3.6 or higher
 - OpenAI    
 - Gradio  
 - Pyttsx3  
@@ -14,23 +14,23 @@ Ein einfacher ChatGPT-Sprachassistent, der die OpenAI-API und Gradio verwendet, 
 
 ### Installation
 
-### 1. Klone das Repository:
+### 1. Clone the repository:
 
    ```bash
    git clone https://github.com/your-github-username/chatgpt-voice-assistant.git
    ```
-### 2. Wechseln Sie in das Verzeichnis:
+### 2. Navigate to the directory:
 
    ```bash
    cd chatgpt-voice-assistant
    ```
 
-### 3. Erstellen Sie eine virtuelle Umgebung:
+### 3. Create a virtual environment:
 
    ```bash
    python3 -m venv venv
    ```
-### 4. Aktivieren Sie die virtuelle Umgebung:
+### 4. Activate the virtual environment:
  - #### MacOS: 
    ```bash
    source venv/bin/activate
@@ -39,43 +39,42 @@ Ein einfacher ChatGPT-Sprachassistent, der die OpenAI-API und Gradio verwendet, 
    ```bash
    .\venv\Scripts\activate
    ```
-### 5. Installieren Sie die Abhängigkeiten:
+### 5. Install the dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
-### 6. OpenAI-API-Schlüssel zur config.py hinzufügen:
-Falls noch nicht getan, bitte eine config.py-Datei im Projektordner erstellen und den OpenAI-API-Schlüssel hinzufügen den Sie aus dem [OpenAI Dashboard](https://platform.openai.com/account/api-keys) erhalten haben:
+### 6. Add OpenAI API key to config.py:
+If not done already, please create a config.py file in the project folder and add the OpenAI API key you obtained from the [OpenAI Dashboard](https://platform.openai.com/account/api-keys) erhalten haben:
 ```bash
 OPENAI_API_KEY = "your_openai_api_key_here"
 ```
-Ersetzen Sie your_openai_api_key_here durch Ihren tatsächlichen API-Schlüssel.
+Replace your_openai_api_key_here with your actual API key.
 
-## FFmpeg installieren
-- #### Für Windows:
+## Installing FFmpeg
+- #### For Windows:
 
-Laden Sie die FFmpeg-Binärdateien von der offiziellen Website herunter: [FFmpeg Download-Seite](https://ffmpeg.org/download.html)
-Extrahieren Sie die heruntergeladenen Dateien und fügen Sie den extrahierten Ordner, der die FFmpeg-Exe-Dateien enthält (normalerweise bin), zur PATH-Umgebungsvariablen hinzu. Eine Anleitung dazu finden Sie hier: [FFmpeg unter Windows installieren](https://www.geeksforgeeks.org/how-to-install-ffmpeg-on-windows/)
+Download the FFmpeg binaries from the official website: [FFmpeg Download-Seite](https://ffmpeg.org/download.html)
+Extract the downloaded files and add the extracted folder containing the FFmpeg exe files (usually bin) to the PATH environment variable. You can follow instructions on how to do that here: [Install FFmpeg on Windows](https://www.geeksforgeeks.org/how-to-install-ffmpeg-on-windows/)
 
-- #### Für MacOS:
+- #### For MacOS:
 ```bash
 brew install ffmpeg
 ```
 
-- #### Für Linux:
+- #### For Linux:
 ```bash
 sudo apt-get update
 sudo apt-get install ffmpeg
 ```
 
-## Ausführung
-Starten Sie den ChatGPT-Sprachassistenten, indem Sie das Hauptskript ausführen:
+## Execution
+To start the ChatGPT voice assistant, run the main script:
 ```bash
 python assistant.py
 ```
-
-   Öffnen Sie Ihren Webbrowser und navigieren Sie zur angezeigten URL (normalerweise http://localhost:7860/), um die Benutzeroberfläche des Sprachassistenten zu verwenden.
+Open your web browser and navigate to the displayed URL (usually http://localhost:7860/), to use the voice assistant interface.
    
-## Autor
-Autor: Martin Haferanke - 
-Ursprüngliche Version von: [Hacking the Markets](https://github.com/hackingthemarkets/)
+## Author
+Author: Martin Haferanke -
+Original version forked by: Hacking the Markets
