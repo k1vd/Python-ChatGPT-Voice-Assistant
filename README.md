@@ -45,7 +45,7 @@ A simple ChatGPT voice assistant using OpenAI API and Gradio to provide a user i
    pip install -r requirements.txt
    ```
 ### 6. Add OpenAI API key to config.py:
-If not done already, please create a config.py file in the project folder and add the OpenAI API key you obtained from the [OpenAI Dashboard](https://platform.openai.com/account/api-keys) erhalten haben:
+If not done already, please create a config.py file in the project folder and add the OpenAI API key you obtained from the [OpenAI Dashboard](https://platform.openai.com/account/api-keys)
 ```bash
 OPENAI_API_KEY = "your_openai_api_key_here"
 ```
