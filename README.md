@@ -22,7 +22,7 @@ A simple ChatGPT voice assistant using OpenAI API and Gradio to provide a user i
 ### 2. Navigate to the directory:
 
    ```bash
-   cd chatgpt-voice-assistant
+   cd chatgpt-api-whisper-api-voice-assistant
    ```
 
 ### 3. Create a virtual environment:
